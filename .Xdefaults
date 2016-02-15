@@ -1,4 +1,19 @@
- !! drop in Solarized colorscheme for Xresources/Xdefaults
+xterm*background: black
+xterm*foreground: gray
+
+xterm*local: true
+
+
+
+xterm*metaSendsEscape: true
+xterm*saveLines: 4096
+xterm*bellIsUrgent: true
+
+xterm*faceName:Noto Mono:style=Regular:antialias=true:pixelsize=15
+xterm*faceNameDoublesize:WenQuanYi Micro Hei:antilas=true:pixelsize=15
+xterm*facesize: 12
+
+!! drop in Solarized colorscheme for Xresources/Xdefaults
 !! https://github.com/altercation/ethanschoonover.com/blob/master/projects/solarized/xresources-colors-solarized/Xresources
  
 !!SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      RGB         HSB
